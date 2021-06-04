@@ -10,10 +10,10 @@ about.addEventListener("click", () => {
     title: "About Me",
     width: "400px",
     height: "400px",
-    top: 50,
-    right: 50,
-    bottom: 50,
-    left: 50,
+    top: 20,
+    right: 20,
+    bottom: 20,
+    left: 20,
     mount: aboutContent,
     onfocus: function () {
       this.setBackground("#00aa00");
@@ -30,10 +30,10 @@ contact.addEventListener("click", () => {
     background: "#00aa00",
     width: "400px",
     height: "200px",
-    top: 50,
-    right: 50,
-    bottom: 50,
-    left: 200,
+    top: 20,
+    right: 20,
+    bottom: 20,
+    left: 20,
     mount: contactContent,
     onfocus: function () {
       this.setBackground("#00aa00");
@@ -50,10 +50,10 @@ projects.addEventListener("click", () => {
     background: "#00aa00",
     width: "500px",
     height: "500px",
-    top: 50,
-    right: 50,
-    bottom: 50,
-    left: 150,
+    top: 20,
+    right: 20,
+    bottom: 20,
+    left: 20,
     mount: projectsContent,
     onfocus: function () {
       this.setBackground("#00aa00");
